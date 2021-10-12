@@ -22,7 +22,28 @@
             id: 125,
             zip: '86720',
             city: 'Tabasco'
+        },
+        getFullAddress(id) {
+            return this.address.city;
         }
+    };
+    const client2 = {
+        name: 'Melissa',
+        age: 30,
+        address: {
+            id: 125,
+            zip: '86720',
+            city: 'Tabasco'
+        },
+        getFullAddress(id) {
+            return this.address.city;
+        }
+    };
+})();
+(() => {
+    let addNumbersFunction;
+    addNumbersFunction = (a, b) => {
+        return 10;
     };
 })();
 //# sourceMappingURL=main.js.map
