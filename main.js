@@ -21,7 +21,6 @@
     const printName = (character) => {
         console.log(character.realName);
     };
-    printName(wolverine);
 })();
 (() => {
     class Avenger {
